@@ -100,10 +100,16 @@ const menuData = {
           image: "/dover-sole-meuniere-fish.jpg",
         },
         {
+          name: "Chicken curry",
+          // description: "Delicate Dover sole with brown butter and lemon",
+          price: "1000",
+          image: "/chicken-curry.jpg",
+        },
+        {
           name: "Chicken wrap",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "750",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/chicken-wrap.jpg",
         },
         {
           name: "Beef Stake",

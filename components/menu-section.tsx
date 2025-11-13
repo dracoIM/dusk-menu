@@ -13,37 +13,37 @@ const menuData = {
           name: "Ice  Mocha",
           // description: "Silky smooth foie gras with brioche and fig compote",
           price: "700",
-          image: "/foie-gras-terrine-luxury-appetizer.jpg",
+          image: "/ice-mocha.jpg",
         },
         {
           name: "Ice Lotus",
           // description: "Silky smooth foie gras with brioche and fig compote",
           price: "700",
-          image: "/foie-gras-terrine-luxury-appetizer.jpg",
+          image: "/ice-lotus.jpg",
         },
         {
           name: "Mojitos",
           // description: "Fresh oysters topped with herb butter and breadcrumbs",
           price: "400",
-          image: "/oysters-rockefeller-fine-dining.jpg",
+          image: "/mojito.jpg",
         },
         {
           name: "Frapuccino",
           // description: "Creamy burrata cheese with seasonal heirloom tomatoes",
           price: "450",
-          image: "/burrata-heirloom-tomatoes-salad.jpg",
+          image: "/frapuccino.jpg",
         },
         {
           name: "Banana milk with vanilla ",
           // description: "Rich and velvety lobster bisque with cognac",
           price: "400",
-          image: "/lobster-bisque-soup-luxury.jpg",
+          image: "/banana-milk.jpg",
         },
         {
           name: "Lemon with Mint",
           // description: "Rich and velvety lobster bisque with cognac",
           price: "300",
-          image: "/lobster-bisque-soup-luxury.jpg",
+          image: "/lemon-with-mint.jpg",
         },
         {
           name: "Spanish Latte Mango",
@@ -55,7 +55,7 @@ const menuData = {
           name: "Snickers milkshake",
           // description: "Rich and velvety lobster bisque with cognac",
           price: "700",
-          image: "/lobster-bisque-soup-luxury.jpg",
+          image: "/snicker-milkshake.jpg",
         },
         {
           name: "Spanish latte with  strawberry",
@@ -79,25 +79,25 @@ const menuData = {
           name: "Beef steak sandwich",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "800",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/beef-steak-sandwich.jpg",
         },
         {
           name: "Lasagna",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "800",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/lasagna.jpg",
         },
         {
           name: "Chicken Soup",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "400",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/chicken-soup.jpg",
         },
         {
           name: "Chicken with french fries",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "700",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/chicken-fries.jpg",
         },
         {
           name: "Chicken curry",
@@ -109,13 +109,19 @@ const menuData = {
           name: "Beef Stake",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "1,000",
-          image: "/dover-sole-meuniere-fish.jpg",
+          image: "/beef-steak.jpg",
         },
         {
           name: "Special pizza",
           // description: "Delicate Dover sole with brown butter and lemon",
           price: "1,000",
           image: "/special-pizza.jpg",
+        },
+        {
+          name: "Special ful",
+          // description: "Delicate Dover sole with brown butter and lemon",
+          price: "1,000",
+          image: "/special-ful.jpg",
         },
         {
           name: "Fish gulash",
@@ -139,37 +145,55 @@ const menuData = {
           name: "Mixed salad",
           // description: "Slow-cooked duck leg with cherry gastrique",
           price: "400",
-          image: "/duck-confit-cherry-gastrique.jpg",
+          image: "/mixed-salad.jpg",
         },
         {
           name: "Shish tawok plate",
           // description: "Tender lamb rack with rosemary and thyme crust",
           price: "1,000",
-          image: "/herb-crusted-lamb-rack.jpg",
+          image: "/shish-tawok.jpg",
         },
         {
           name: "Lugaimat dusk",
           // description: "Tender lamb rack with rosemary and thyme crust",
           price: "1,500",
-          image: "/herb-crusted-lamb-rack.jpg",
+          image: "/lugaimat.jpg",
         },
         {
           name: "Shawarma sandwich",
           // description: "Tender lamb rack with rosemary and thyme crust",
           price: "700",
-          image: "/herb-crusted-lamb-rack.jpg",
+          image: "/shawarma-sandwich.jpg",
         },
         {
           name: "Rice with tomato ",
           // description: "Tender lamb rack with rosemary and thyme crust",
           price: "500",
-          image: "/herb-crusted-lamb-rack.jpg",
+          image: "/rice-with-tomato.jpg",
+        },
+        {
+          name: "Fish cutlet ",
+          // description: "Tender lamb rack with rosemary and thyme crust",
+          price: "400",
+          image: "/fish-cutlet.jpg",
         },
         {
           name: "Omelte eggs ",
           // description: "Tender lamb rack with rosemary and thyme crust",
           price: "400",
           image: "/omlete.jpg",
+        },
+        {
+          name: "Grilled chicken breast ",
+          // description: "Tender lamb rack with rosemary and thyme crust",
+          price: "950",
+          image: "/grilled-chicken.jpg",
+        },
+        {
+          name: "Chicken club  sandwich",
+          // description: "Tender lamb rack with rosemary and thyme crust",
+          price: "700",
+          image: "/club-sandwich.jpg",
         },
       ],
     },
@@ -186,7 +210,13 @@ const menuData = {
           name: "Fettuccine crepe",
           // description: "Silky panna cotta with fresh berry coulis",
           price: "400",
-          image: "/panna-cotta-berries-dessert.jpg",
+          image: "/fettucine-crepe.jpg",
+        },
+        {
+          name: "Mini pancake",
+          // description: "Silky panna cotta with fresh berry coulis",
+          price: "400",
+          image: "/mini-pancake.jpg",
         },
       ],
     },
@@ -305,10 +335,10 @@ export default function MenuSection() {
         <div className="space-y-16">
           {categories.map((category) => (
             <div key={category.name}>
-              <h3 className="font-serif text-3xl font-bold text-primary mb-8 pb-4 border-b-2 border-accent">
+              <h3 className="font-serif text-3xl font-bold text-primary mb-8 pb-4 ">
                 {category.name}
               </h3>
-              <div className="grid md:grid-cols-2 gap-8">
+              <div className="grid md:grid-cols-2 gap-12">
                 {category.items.map((item) => (
                   <MenuItem key={item.name} {...item} />
                 ))}

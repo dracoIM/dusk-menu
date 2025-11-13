@@ -9,7 +9,8 @@ export const translations = {
     // Hero
     welcome: "Welcome to Lumière",
     tagline: "Experience Culinary Excellence",
-    description: "Discover an exquisite dining experience with our carefully curated menu of fine cuisine",
+    description:
+      "Discover an exquisite dining experience with our carefully curated menu of fine cuisine",
 
     // Menu
     appetizers: "Appetizers",
@@ -26,7 +27,8 @@ export const translations = {
     bisque: "Lobster Bisque",
     bisqueDesc: "Rich and velvety lobster bisque with cognac",
     wellington: "Beef Wellington",
-    wellingtonDesc: "Prime beef tenderloin wrapped in mushroom duxelles and puff pastry",
+    wellingtonDesc:
+      "Prime beef tenderloin wrapped in mushroom duxelles and puff pastry",
     sole: "Dover Sole Meunière",
     soleDesc: "Delicate Dover sole with brown butter and lemon",
     confit: "Duck Confit",
@@ -43,10 +45,10 @@ export const translations = {
     macaronsDesc: "Delicate French macarons in seasonal flavors",
 
     // About
-    aboutTitle: "About Lumière",
+    aboutTitle: "About Dusk",
     ourStory: "Our Story",
     storyText:
-      "Lumière was founded with a passion for culinary excellence and a commitment to providing an unforgettable dining experience. Our restaurant celebrates the art of fine dining with carefully sourced ingredients and innovative techniques.",
+      "Dusk was founded with a passion for culinary excellence and a commitment to providing an unforgettable dining experience. Our restaurant celebrates the art of fine dining with carefully sourced ingredients and innovative techniques.",
     ourChef: "Our Chef",
     chefText:
       "Chef Michel Laurent brings over 25 years of experience from Michelin-starred restaurants across Europe. His philosophy combines classical French techniques with modern creativity.",
@@ -83,7 +85,8 @@ export const translations = {
     // Hero
     welcome: "أهلا بك في لوميير",
     tagline: "اختبر التميز الطهوي",
-    description: "اكتشف تجربة طعام فاخرة مع قائمتنا المختارة بعناية من الأطباق الراقية",
+    description:
+      "اكتشف تجربة طعام فاخرة مع قائمتنا المختارة بعناية من الأطباق الراقية",
 
     // Menu
     appetizers: "المقبلات",
@@ -147,6 +150,6 @@ export const translations = {
     fridaySaturday: "الجمعة - السبت: 5:00 م - 12:00 ص",
     sundayMonday: "الأحد - الاثنين: مغلق",
   },
-}
+};
 
-export type TranslationKey = keyof typeof translations.en
+export type TranslationKey = keyof typeof translations.en;

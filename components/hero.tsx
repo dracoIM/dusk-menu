@@ -13,8 +13,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url(/placeholder.svg?height=1080&width=1920&query=luxury restaurant fine dining ambiance)",
+          backgroundImage: "url(/dusk-interior2.jpg)",
           backgroundPosition: "center",
         }}
       >

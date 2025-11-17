@@ -14,11 +14,11 @@ export default function MenuItem({
   return (
     <div className="p-2 transition ">
       {image && (
-        <div className="mb-4 overflow-hidden rounded-lg h-full w-full aspect-square">
+        <div className="mb-4  rounded-lg   aspect-square overflow-hidden bg-accent/10 h-100vh flex items-center justify-center">
           <img
             src={image || "/placeholder.svg"}
             alt={name}
-            className="w-full h-full items-center object-cover aspect-square hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
       )}

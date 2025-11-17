@@ -14,7 +14,7 @@ export default function MenuItem({
   return (
     <div className="pb-8 transition px-2 ">
       {image && (
-        <div className="mb-4 overflow-hidden rounded-lg h-full w-full aspect-square">
+        <div className="mb-4 overflow-hidden rounded-lg h-1/2 w-full aspect-square">
           <img
             src={image || "/placeholder.svg"}
             alt={name}
@@ -23,10 +23,10 @@ export default function MenuItem({
         </div>
       )}
       <div className="flex justify-between items-start gap-4 mb-2">
-        <h4 className="font-serif text-xl font-semibold text-foreground">
+        <h4 className="font-serif text-2xl font-semibold text-foreground">
           {name}
         </h4>
-        <span className="font-serif text-lg font-semibold text-accent whitespace-nowrap">
+        <span className="font-serif text-2xl font-semibold text-accent whitespace-nowrap">
           {price}
         </span>
       </div>

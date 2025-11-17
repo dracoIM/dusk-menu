@@ -12,9 +12,9 @@ export default function MenuItem({
   image,
 }: MenuItemProps) {
   return (
-    <div className="pb-8 transition px-2 ">
+    <div className="p-2 transition ">
       {image && (
-        <div className="mb-4 overflow-hidden rounded-lg h-1/2 w-full aspect-square">
+        <div className="mb-4 overflow-hidden rounded-lg h-full w-full aspect-square">
           <img
             src={image || "/placeholder.svg"}
             alt={name}

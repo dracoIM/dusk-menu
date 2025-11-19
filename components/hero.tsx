@@ -13,7 +13,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url(/dusk-interior2.jpg)",
+          backgroundImage: "url(/dusk-banner.png)",
           backgroundPosition: "center",
         }}
       >

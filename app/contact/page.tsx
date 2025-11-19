@@ -80,11 +80,9 @@ export default function Contact() {
                 <h3 className="font-serif text-xl font-bold text-primary mb-2">
                   {t.address}
                 </h3>
-                <p className="font-body text-foreground/80">
-                  123 Culinary Lane
-                  <br />
-                  Paris, France 75001
-                </p>
+               
+                   <a href="https://www.google.com/maps?q=Dusk+Restaurant,+Addis+Ababa,+Ethiopia&ftid=0x164b8500103436ed:0xc43dab49422b14d9&entry=gps&lucs=,94259551,94275317,94224825,94227247,94227248,94231188,47071704,47069508,94218641,94282134,94203019,47084304&g_ep=CAISEjI1LjI3LjEuNzc3NjcxOTc0MBgAINeCAypsLDk0MjU5NTUxLDk0Mjc1MzE3LDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJBRQ%3D%3D&skid=6fc72fe0-7d01-4d6a-9a48-19343d136ef1&g_st=ipc&g_st=ipc">Click Here</a>
+              
               </div>
 
               <div
@@ -95,10 +93,10 @@ export default function Contact() {
                 </h3>
                 <p className="font-body text-foreground/80">
                   <a
-                    href="tel:+33123456789"
+                    href="tel:+251966230000"
                     className="hover:text-accent transition"
                   >
-                    +33 (1) 2345-6789
+                    +251966230000
                   </a>
                 </p>
               </div>
@@ -110,12 +108,12 @@ export default function Contact() {
                   Email
                 </h3>
                 <p className="font-body text-foreground/80">
-                  <a
+                  {/* <a
                     href="mailto:info@dusk.fr"
                     className="hover:text-accent transition"
                   >
                     info@dusk.fr
-                  </a>
+                  </a> */}
                 </p>
               </div>
 
@@ -126,11 +124,8 @@ export default function Contact() {
                   {t.hours}
                 </h3>
                 <p className="font-body text-foreground/80">
-                  {t.tuesdayToThursday}
-                  <br />
-                  {t.fridaySaturday}
-                  <br />
-                  {t.sundayMonday}
+                  {t.open}
+                 
                 </p>
               </div>
             </div>

@@ -10,15 +10,15 @@ export default function About() {
   const { language } = useLanguage();
   const t = translations[language];
   const staffMembers = [
-    {
-      name: language === "ar" ? "ميشيل لوران" : "Michel Laurent",
-      position: language === "ar" ? "الشيف التنفيذي" : "Executive Chef",
-      bio:
-        language === "ar"
-          ? "بخبرة تزيد عن 25 سنة في المطاعم الحاصلة على نجوم ميشلان، يقود ميشيل فريقنا بشغف وإبداع."
-          : "With over 25 years at Michelin-starred restaurants, Michel leads our kitchen with passion and creativity.",
-      image: "/01.png",
-    },
+    // {
+    //   name: language === "ar" ? "ميشيل لوران" : "Michel Laurent",
+    //   position: language === "ar" ? "الشيف التنفيذي" : "Executive Chef",
+    //   bio:
+    //     language === "ar"
+    //       ? "بخبرة تزيد عن 25 سنة في المطاعم الحاصلة على نجوم ميشلان، يقود ميشيل فريقنا بشغف وإبداع."
+    //       : "With over 25 years at Michelin-starred restaurants, Michel leads our kitchen with passion and creativity.",
+    //   image: "/01.png",
+    // },
     {
       name: language === "ar" ? "سارة دوبوا" : "Sarah Dubois",
       position: language === "ar" ? "الشيفة مساعد" : "Sous Chef",
@@ -54,7 +54,7 @@ export default function About() {
           <p className="font-body text-lg text-foreground/80 leading-relaxed">
             {language === "ar"
               ? "تأسست لوميير برغبة في التميز الطهوي والالتزام بتقديم تجربة طعام لا تُنسى منذ عام 1995."
-              : "Dusk has been a beacon of culinary excellence since 1995, dedicated to crafting unforgettable dining experiences through the finest ingredients and masterful technique."}
+              : "Dusk has been a beacon of culinary excellence since it's begining, dedicated to crafting unforgettable dining experiences through the finest ingredients and masterful technique."}
           </p>
         </div>
       </section>
@@ -87,9 +87,9 @@ export default function About() {
           <div
             className={`grid md:grid-cols-2 gap-12 items-center ${language === "ar" ? "flex-row-reverse" : ""}`}
           >
-            <div className="bg-accent/10 rounded-lg h-80 flex items-center justify-center border border-accent/20">
+            <div className="bg-accent/10 rounded-lg  flex items-center justify-center border border-accent/20">
               <img
-                src="/dusk-interior.jpg"
+                src="/01.png"
                 alt="Chef"
                 className="w-full h-full object-cover rounded-lg"
               />
@@ -147,7 +147,7 @@ export default function About() {
               Our Staff
             </h2>
 
-            <div className="grid md:grid-cols-3 gap-8 pt-8">
+            <div className="grid md:grid-cols-2 gap-8 pt-8">
               {staffMembers.map((member, index) => (
                 <StaffMember key={index} member={member} />
               ))}

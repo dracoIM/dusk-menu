@@ -51,7 +51,7 @@ export const translations = {
       "Dusk was founded with a passion for culinary excellence and a commitment to providing an unforgettable dining experience. Our restaurant celebrates the art of fine dining with carefully sourced ingredients and innovative techniques.",
     ourChef: "Our Chef",
     chefText:
-      "Chef Michel Laurent brings over 25 years of experience from Michelin-starred restaurants across Europe. His philosophy combines classical French techniques with modern creativity.",
+      " our chef  brings over 25 years of experiences.  Her philosophy combines classical East African techniques with modern creativity.",
     ourValues: "Our Values",
     valuesText:
       "We believe in quality, sustainability, and hospitality. Every dish is crafted with precision and passion, using only the finest ingredients sourced from trusted suppliers.",
@@ -71,9 +71,9 @@ export const translations = {
     address: "Address",
     phone: "Phone",
     hours: "Hours",
-    tuesdayToThursday: "Tuesday - Thursday: 5:00 PM - 11:00 PM",
-    fridaySaturday: "Friday - Saturday: 5:00 PM - 12:00 AM",
-    sundayMonday: "Sunday - Monday: Closed",
+    open: "24 hours open",
+    // fridaySaturday: "Friday - Saturday: 5:00 PM - 12:00 AM",
+    // sundayMonday: "Sunday - Monday: Closed",
   },
   ar: {
     // Header
@@ -146,9 +146,9 @@ export const translations = {
     address: "العنوان",
     phone: "الهاتف",
     hours: "ساعات العمل",
-    tuesdayToThursday: "الثلاثاء - الخميس: 5:00 م - 11:00 م",
-    fridaySaturday: "الجمعة - السبت: 5:00 م - 12:00 ص",
-    sundayMonday: "الأحد - الاثنين: مغلق",
+    open: "الثلاثاء - الخميس: 5:00 م - 11:00 م",
+    // fridaySaturday: "الجمعة - السبت: 5:00 م - 12:00 ص",
+    // sundayMonday: "الأحد - الاثنين: مغلق",
   },
 };
 

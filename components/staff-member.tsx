@@ -12,7 +12,7 @@ interface StaffMemberProps {
 export function StaffMember({ member }: StaffMemberProps) {
   return (
     <div className="text-center">
-      <div className="mb-4 rounded-lg overflow-hidden bg-accent/10 h-64 flex items-center justify-center border border-accent/20">
+      <div className="mb-4 rounded-lg overflow-hidden bg-accent/10  flex items-center justify-center border border-accent/20">
         <img
           src={member.image || "/placeholder.svg"}
           alt={member.name}

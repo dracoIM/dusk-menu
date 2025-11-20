@@ -51,7 +51,7 @@ export default function Footer() {
                 className={`flex items-center gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}
               >
                 <Mail size={18} />
-                <span>reservations@dusk.com</span>
+                <span>Dusk.ethio@gmail.com</span>
               </div> */}
               <div
                 className={`flex items-start gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}

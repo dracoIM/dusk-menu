@@ -20,21 +20,21 @@ export default function About() {
     //   image: "/01.png",
     // },
     {
-      name: language === "ar" ? "سارة دوبوا" : "Sarah Dubois",
-      position: language === "ar" ? "الشيفة مساعد" : "Sous Chef",
+      name: language === "ar" ? "سارة دوبوا" : "Yohannes takele",
+      position: language === "ar" ? "الشيفة مساعد" : "Supervisor ",
       bio:
         language === "ar"
           ? "متخصصة في الحلويات الفاخرة والتقنيات الحديثة، تضيف سارة اللمسة الأخيرة لكل طبق."
-          : "Specializing in fine pastry and modern techniques, Sarah brings precision to every plate.",
+          : "One of our hard working imploye that makes you feel like it's your home.",
       image: "/02.png",
     },
     {
-      name: language === "ar" ? "جان بيير مارتن" : "Jean Pierre Martin",
-      position: language === "ar" ? "مدير الطاولة" : "Maître d'",
+      name: language === "ar" ? "جان بيير مارتن" : "Adem Mohamed ",
+      position: language === "ar" ? "مدير الطاولة" : "Pastry chef'",
       bio:
         language === "ar"
           ? "مع احترافية بارزة في إدارة الضيوف، يضمن جان بيير تجربة خدمة استثنائية."
-          : "With distinguished expertise in guest management, Jean Pierre ensures exceptional service.",
+          : "With distinguished expertise in pastry Adem gives us a taste of tradition with sweets.",
       image: "/03.png",
     },
   ];

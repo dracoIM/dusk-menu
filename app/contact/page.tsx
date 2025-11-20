@@ -202,7 +202,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     className={`w-full px-4 py-2 bg-background border border-border rounded-lg font-body text-foreground focus:outline-none focus:ring-2 focus:ring-accent ${language === "ar" ? "text-right" : ""}`}
-                    placeholder="+33 (1) 2345-6789"
+                    placeholder="+2519------"
                   />
                 </div>
 

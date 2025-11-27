@@ -3,6 +3,7 @@
 import { useLanguage } from "@/lib/language-context";
 import { translations } from "@/lib/translations";
 import MenuItem from "./menu-item";
+import dynamic from "next/dynamic";
 
 const menuData = {
   en: [
@@ -311,6 +312,9 @@ const menuData = {
     },
   ],
 };
+const PdfViewer = dynamic(() => import("./pdfViewer"), {
+  ssr: false,
+});
 
 export default function MenuSection() {
   const { language } = useLanguage();
@@ -346,6 +350,7 @@ export default function MenuSection() {
             </div>
           ))}
         </div>
+        <PdfViewer />
       </div>
     </section>
   );

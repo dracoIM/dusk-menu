@@ -8,65 +8,6 @@ import dynamic from "next/dynamic";
 const menuData = {
   en: [
     {
-      name: "Beverages",
-      items: [
-        {
-          name: "Ice  Mocha",
-          // description: "Silky smooth foie gras with brioche and fig compote",
-          price: "700",
-          image: "/ice-mocha.jpg",
-        },
-        {
-          name: "Ice Lotus",
-          // description: "Silky smooth foie gras with brioche and fig compote",
-          price: "700",
-          image: "/ice-lotus.jpg",
-        },
-        {
-          name: "Mojitos",
-          // description: "Fresh oysters topped with herb butter and breadcrumbs",
-          price: "400",
-          image: "/mojito.jpg",
-        },
-        {
-          name: "Frapuccino",
-          // description: "Creamy burrata cheese with seasonal heirloom tomatoes",
-          price: "450",
-          image: "/frapuccino.jpg",
-        },
-        {
-          name: "Banana milk with vanilla ",
-          // description: "Rich and velvety lobster bisque with cognac",
-          price: "400",
-          image: "/banana-milk.jpg",
-        },
-        {
-          name: "Lemon with Mint",
-          // description: "Rich and velvety lobster bisque with cognac",
-          price: "300",
-          image: "/lemon-with-mint.jpg",
-        },
-        {
-          name: "Spanish Latte Mango",
-          // description: "Rich and velvety lobster bisque with cognac",
-          price: "700",
-          image: "/spanish-latte.jpg",
-        },
-        {
-          name: "Snickers milkshake",
-          // description: "Rich and velvety lobster bisque with cognac",
-          price: "700",
-          image: "/snicker-milkshake.jpg",
-        },
-        {
-          name: "Spanish latte with  strawberry",
-          // description: "Rich and velvety lobster bisque with cognac",
-          price: "700",
-          image: "/spanish-latte-strawberry.jpg",
-        },
-      ],
-    },
-    {
       name: "Main Courses",
       items: [
         {
@@ -198,6 +139,66 @@ const menuData = {
         },
       ],
     },
+    {
+      name: "Beverages",
+      items: [
+        {
+          name: "Ice  Mocha",
+          // description: "Silky smooth foie gras with brioche and fig compote",
+          price: "700",
+          image: "/ice-mocha.jpg",
+        },
+        {
+          name: "Ice Lotus",
+          // description: "Silky smooth foie gras with brioche and fig compote",
+          price: "700",
+          image: "/ice-lotus.jpg",
+        },
+        {
+          name: "Mojitos",
+          // description: "Fresh oysters topped with herb butter and breadcrumbs",
+          price: "400",
+          image: "/mojito.jpg",
+        },
+        {
+          name: "Frapuccino",
+          // description: "Creamy burrata cheese with seasonal heirloom tomatoes",
+          price: "450",
+          image: "/frapuccino.jpg",
+        },
+        {
+          name: "Banana milk with vanilla ",
+          // description: "Rich and velvety lobster bisque with cognac",
+          price: "400",
+          image: "/banana-milk.jpg",
+        },
+        {
+          name: "Lemon with Mint",
+          // description: "Rich and velvety lobster bisque with cognac",
+          price: "300",
+          image: "/lemon-with-mint.jpg",
+        },
+        {
+          name: "Spanish Latte Mango",
+          // description: "Rich and velvety lobster bisque with cognac",
+          price: "700",
+          image: "/spanish-latte.jpg",
+        },
+        {
+          name: "Snickers milkshake",
+          // description: "Rich and velvety lobster bisque with cognac",
+          price: "700",
+          image: "/snicker-milkshake.jpg",
+        },
+        {
+          name: "Spanish latte with  strawberry",
+          // description: "Rich and velvety lobster bisque with cognac",
+          price: "700",
+          image: "/spanish-latte-strawberry.jpg",
+        },
+      ],
+    },
+
     {
       name: "Desserts",
       items: [

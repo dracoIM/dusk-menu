@@ -22,7 +22,7 @@ export default function Footer() {
             <p className="font-body text-primary-foreground/80">
               {language === "ar"
                 ? "اختبر قمة الفن الطهوي الفرنسي في أجواء من الأناقة المكررة والرقي الخالد."
-                : "Experience the pinnacle of French culinary artistry in an atmosphere of refined elegance and timeless sophistication."}
+                : "Experience the pinnacle culinary artistry in an atmosphere of refined elegance and timeless sophistication."}
             </p>
           </div>
 

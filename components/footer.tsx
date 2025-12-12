@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Tiktok } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 import { translations } from "@/lib/translations";
 
@@ -47,17 +47,25 @@ export default function Footer() {
                 <Phone size={18} />
                 <span>+251966230000</span>
               </div>
-              {/* <div
+               <div
                 className={`flex items-center gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}
               >
                 <Mail size={18} />
                 <span>Dusk.ethio@gmail.com</span>
-              </div> */}
+              </div>
+              <div className={`flex items-center gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}>
+                <Instagram size={18} />
+                <a href="https://www.instagram.com/dusk.restaurant?igsh=ejNiODQzZWl2NTd6"> dusk.resturant </a>
+              </div>
+                <div className={`flex items-center gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}>
+                  <Tiktok size={18} />
+                  <a href="https://vm.tiktok.com/ZMHwHBgfp7CJQ-kKXE1/"> tiktok </a>
+                </div>
               <div
                 className={`flex items-start gap-2 ${language === "ar" ? "flex-row-reverse" : ""}`}
               >
                 <MapPin size={18} className="mt-1" />
- <a href="https://www.google.com/maps?q=Dusk+Restaurant,+Addis+Ababa,+Ethiopia&ftid=0x164b8500103436ed:0xc43dab49422b14d9&entry=gps&lucs=,94259551,94275317,94224825,94227247,94227248,94231188,47071704,47069508,94218641,94282134,94203019,47084304&g_ep=CAISEjI1LjI3LjEuNzc3NjcxOTc0MBgAINeCAypsLDk0MjU5NTUxLDk0Mjc1MzE3LDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJBRQ%3D%3D&skid=6fc72fe0-7d01-4d6a-9a48-19343d136ef1&g_st=ipc&g_st=ipc">Click Here</a>
+                <a href="https://www.google.com/maps?q=Dusk+Restaurant,+Addis+Ababa,+Ethiopia&ftid=0x164b8500103436ed:0xc43dab49422b14d9&entry=gps&lucs=,94259551,94275317,94224825,94227247,94227248,94231188,47071704,47069508,94218641,94282134,94203019,47084304&g_ep=CAISEjI1LjI3LjEuNzc3NjcxOTc0MBgAINeCAypsLDk0MjU5NTUxLDk0Mjc1MzE3LDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJBRQ%3D%3D&skid=6fc72fe0-7d01-4d6a-9a48-19343d136ef1&g_st=ipc&g_st=i>Click Here</a>
   </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ import {
 
 export default function PdfMenuViewer() {
   const { language } = useLanguage();
-  const [pdfUrl] = useState("/duskMenu.pdf#toolbar=0&navpanes=0");
+  const [pdfUrl] = useState("/duskMenu_final.pdf#toolbar=0&navpanes=0");
 
   const title = language === "ar" ? "عرض القائمة الكاملة" : "View Full Menu";
   const description =
